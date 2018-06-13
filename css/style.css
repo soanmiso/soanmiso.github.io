@@ -5,7 +5,7 @@ body {
     margin: 0;
     background: #fff;
     letter-spacing: 1px;
-font-family: 'Montserrat', sans-serif;
+    font-family: 'Nanum Gothic', serif;
 }
 
 body a {
@@ -35,11 +35,11 @@ input[type="submit"] {
     -o-transition: 0.5s all;
     -ms-transition: 0.5s all;
     letter-spacing: 1px;
-   font-family: 'Montserrat', sans-serif;
+    font-family: 'Jeju Hallasan', serif;
 }
 select,input[type="email"],input[type="text"],input[type=password],
 input[type="button"],input[type="submit"],textarea{
-   font-family: 'Montserrat', sans-serif;
+   font-family: 'Jeju Hallasan', serif;
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
 	-moz-transition:0.5s all;
@@ -56,7 +56,7 @@ h5,
 h6 {
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Jeju Hallasan', serif;
     letter-spacing: 1px;
 }
 
@@ -64,7 +64,7 @@ p {
     margin: 0;
     padding: 0;
     letter-spacing: 1px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nanum Gothic', serif;
 }
 
 
