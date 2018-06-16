@@ -3,8 +3,5 @@
  */
 
 
-@import url(http://fonts.googleapis.com/earlyaccess/jejuhallasan.css);
-@import url(http://fonts.googleapis.com/earlyaccess/jejuhallasan.css);
-
-@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
-@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(./webfonts/jejuHallasan.css);
+@import url(./webfonts/nanumgothic.css);
