@@ -867,6 +867,21 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 	-ms-box-shadow: inset 0 0 0 4px #3b5998; 
 	box-shadow: inset 0 0 0 4px #3b5998;
 } 
+/* naver */
+.icon-border.naver::before {
+    -webkit-box-shadow: inset 0 0 0 48px #1dc800; 
+    -moz-box-shadow: inset 0 0 0 48px #1dc800; 
+    -o-box-shadow: inset 0 0 0 48px #1dc800; 
+    -ms-box-shadow: inset 0 0 0 48px #1dc800; 
+    box-shadow: inset 0 0 0 48px #1dc800; 
+} 
+.icon-border.naver:hover::before {
+    -webkit-box-shadow: inset 0 0 0 4px #1dc800; 
+    -moz-box-shadow: inset 0 0 0 4px #1dc800; 
+    -o-box-shadow: inset 0 0 0 4px #1dc800; 
+    -ms-box-shadow: inset 0 0 0 4px #1dc800; 
+    box-shadow: inset 0 0 0 4px #1dc800;
+} 
 /* twitter */
 .icon-border.twitter::before {
 	-webkit-box-shadow: inset 0 0 0 48px #4099ff;
@@ -1766,7 +1781,7 @@ ul.address li ul.agileits-address-text li a:hover{
 }
 @media screen and (max-width: 414px){
 	.banner-right p {
-		font-size: 1.8em;
+		font-size: 1.5em;
 	}
 	.banner-left {
 		width: 45%;
@@ -1843,7 +1858,7 @@ ul.address li ul.agileits-address-text li a:hover{
 		padding: 2em 0 0 1em;
 	}
 	.banner-right p {
-		font-size: 1.8em;
+		font-size: 1.5em;
 	}
 	#home {
 		height: 431px !important;

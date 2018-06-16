@@ -631,6 +631,9 @@
 .fa-facebook:before {
   content: "\f09a";
 }
+.fa-naver:before {
+  content: "N";
+}
 .fa-github:before {
   content: "\f09b";
 }
