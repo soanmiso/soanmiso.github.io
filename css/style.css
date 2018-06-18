@@ -1729,6 +1729,9 @@ ul.address li ul.agileits-address-text li a:hover{
 	}
 }
 @media screen and (max-width: 480px){
+    div#home {
+        background-image: url("../images/main-m.jpg");
+    }
 	.banner-left{
 		width:38%;
 	}
