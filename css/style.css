@@ -882,6 +882,21 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
     -ms-box-shadow: inset 0 0 0 4px #1dc800; 
     box-shadow: inset 0 0 0 4px #1dc800;
 } 
+/* miseong */
+.icon-border.miseong::before {
+    -webkit-box-shadow: inset 0 0 0 48px #ffcc99; 
+    -moz-box-shadow: inset 0 0 0 48px #ffcc99; 
+    -o-box-shadow: inset 0 0 0 48px #ffcc99; 
+    -ms-box-shadow: inset 0 0 0 48px #ffcc99; 
+    box-shadow: inset 0 0 0 48px #ffcc99; 
+} 
+.icon-border.miseong:hover::before {
+    -webkit-box-shadow: inset 0 0 0 4px #ffcc99; 
+    -moz-box-shadow: inset 0 0 0 4px #ffcc99; 
+    -o-box-shadow: inset 0 0 0 4px #ffcc99; 
+    -ms-box-shadow: inset 0 0 0 4px #ffcc99; 
+    box-shadow: inset 0 0 0 4px #ffcc99;
+} 
 /* twitter */
 .icon-border.twitter::before {
 	-webkit-box-shadow: inset 0 0 0 48px #4099ff;

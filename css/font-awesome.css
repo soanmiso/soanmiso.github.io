@@ -634,6 +634,9 @@
 .fa-naver:before {
   content: "N";
 }
+.fa-miseong:before {
+  content: "美星";
+}
 .fa-github:before {
   content: "\f09b";
 }
