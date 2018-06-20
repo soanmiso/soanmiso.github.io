@@ -1708,6 +1708,9 @@ ul.address li ul.agileits-address-text li a:hover{
 	.contact-form-w3l.w3ls-section {
 		padding: 5em 0 2.7em;
 	}
+    .education h3 {
+    text-align: left;
+    }
 }
 @media screen and (max-width: 568px){
 	#home {
