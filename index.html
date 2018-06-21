@@ -63,7 +63,7 @@
                <div class="education-agile-w3l">
                   <div class="education-agile-w3l-info">
                      <p>황토 온돌 편백으로 만들어진 인테리어. 미라리 해수욕장을 감싸고 펼쳐진 천연기념물 소안도 미라리 상록수림. 24종 776그루의 나무들이 숲을 이루고 있습니다. 펜션에 앉아만 있어도 맑은 공기를 느낄 수 있습니다.</p>
-                     <p><img src="images/miso.jpg" class="img-responsive"></p>
+                     <p><img src="images/miso.jpg" class="img-responsive info-img"></p>
                   </div>
                </div>
             </div>
@@ -72,7 +72,7 @@
                <div class="education-agile-w3l">
                   <div class="education-agile-w3l-info">
                      <p>단체손님 수용 가능하며, 노래방 기계가 배치되어 있습니다. 여행 숙박은 물론, 동창회 계모임으로 이용하실 수 있습니다.</p>
-                     <p><img src="images/meeting.jpg" class="img-responsive"></p>
+                     <p><img src="images/meeting.jpg" class="img-responsive info-img"></p>
                   </div>
                </div>
             </div>                 
@@ -482,7 +482,7 @@
 						<p>소안도 미소펜션</p>	
 					</div>	
 					<div class="social-icons agileits">
-						<p>Website template by <a href="https://w3layouts.com/gusto-personal-website-flat-bootstrap-responsive-web-template/">Gusto</a> and editor by Miseong Shin</p>	
+						<p>Template by <a href="https://w3layouts.com/gusto-personal-website-flat-bootstrap-responsive-web-template/">Gusto</a> and editor by Miseong Shin</p>	
 						<ul>
 							<li><a href="#" class="fa fa-miseong icon icon-border miseong"> </a></li>
 						</ul>
@@ -534,7 +534,11 @@
                 $(this).css('top', (windowHeight / 2) - (contentHeight / 2));
             });
 
-            $('.alt-img').html($("#img-example").attr('src'));
+            if($(window).width() / windowHeight > 2){
+            	$('.info-img').css("max-width","90%");
+            }
+            
+
         }
 
         // Execute the function
