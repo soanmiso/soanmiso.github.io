@@ -561,16 +561,28 @@ span.sicon {
     font-size: 3em;
     color: #fff;
 }
-.elite-services1 {
+.soan-info1 {
     background: #fc636b;
 }
-.elite-services2{
+.soan-info2{
     background:#72dc76;
 }
-.elite-services3 {
+.soan-info3 {
     background:#60a7e0;
 }
-.elite-services4 {
+.soan-info4 {
+    background:rgb(247, 236, 97);
+}
+.soan-info5 {
+    background: #fc636b;
+}
+.soan-info6{
+    background:#72dc76;
+}
+.soan-info7 {
+    background:#60a7e0;
+}
+.soan-info8 {
     background:rgb(247, 236, 97);
 }
 .wthree-s1:hover {
@@ -643,7 +655,7 @@ span.sicon {
 }
 .agilits-form {
     padding: 2em 4em;
-    margin: 2em auto 0;
+    margin: 4em auto 0;
     width: 90%;
 	background:#fff;
 	background-size:cover;
