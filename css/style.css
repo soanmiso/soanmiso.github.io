@@ -3,7 +3,7 @@ body {
 	padding: 0;
 	margin: 0;
 	background: #FFF;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Noto Sans KR', sans-serif;
 }
 body a {
 	transition: 0.5s all;
@@ -119,7 +119,7 @@ a.w3ls-title1 {
     text-transform: capitalize;
     padding: 0em 0.5em 0;
     border-radius: 10px;
-	font-family: 'Fjalla One', sans-serif;
+	font-family: 'Noto Sans KR', sans-serif;
 }
 a.w3ls-title2 {
     float: right;
@@ -361,7 +361,7 @@ figcaption.w3layouts-caption:hover {
     -o-transition: 0.5s all;
     letter-spacing: 2px;
     color: #fff;
-    font-size: 1em;
+    font-size: 1.1em;
 }
 .simplefilter li.active, .simplefilter li:hover {
     color: #fff;
@@ -520,10 +520,11 @@ h4.w3layouts-year{
 	font-size:1em;
 }
 .education-agile-w3l-info p {
-    font-size: 0.9em;
+    font-size: 1.1em;
     line-height: 1.9em;
     color: #777;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 .education-agile-w3l.two {
     margin: 1em 0;
@@ -1793,7 +1794,7 @@ ul.address li ul.agileits-address-text li a:hover{
 		margin: 2em 0;
 	}
 	.simplefilter li{
-		font-size:0.9em;
+		font-size:1.1em;
 	}
 	.simplefilter li, .multifilter li, .sortandshuffle li {
 		padding: 8px 4px;
@@ -2020,3 +2021,20 @@ ul.address li ul.agileits-address-text li a:hover{
 	}
 }	
 /* -- //Responsive code -- */
+
+.img-autosize-wrap{
+    overflow: hidden;
+    width:100%;
+    height:150px;
+    position: relative;
+}
+.img-autosize-wrap > img{
+    width:auto;
+    height:auto;
+    min-width:100%;
+    min-height: 100%;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+}
