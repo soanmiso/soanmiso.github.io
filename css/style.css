@@ -563,10 +563,16 @@ span.sicon {
     color: #fff;
 }
 .soan-info1 {
-    background: #fc636b;
+    background:url(../images/soan/1.jpg) no-repeat 0px 0px;
+}
+.soan-info1:hover {
+    background:url(../images/soan/1-2.jpg) no-repeat 0px 0px;
 }
 .soan-info2{
-    background:#72dc76;
+    background:url(../images/soan/2.jpg) no-repeat 0px 0px;
+}
+.soan-info2:hover {
+    background:url(../images/soan/2-2.jpg) no-repeat 0px 0px;
 }
 .soan-info3 {
     background:#60a7e0;
@@ -1063,9 +1069,6 @@ ul.address li ul.agileits-address-text li a:hover{
 	text-align: center;
 	-webkit-transition: all 0.3s ease;
 	transition: all 0.3s ease;
-}
-.bott-img:hover {
-	background-color: #44c7f4;
 }
 .bottom-gds:hover h4.mission {
 	color: #000;
