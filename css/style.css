@@ -195,6 +195,9 @@ span.title-head.gallery {
 div#gallery {
     background:#d65cb0;
 }
+div#services {
+    background:#d65cb0;
+}
 .port-head {
     text-align: center;
 }
@@ -574,23 +577,29 @@ span.sicon {
 .soan-info2:hover {
     background:url(../images/soan/2-2.jpg) no-repeat 0px 0px;
 }
-.soan-info3 {
-    background:#60a7e0;
+.soan-info3{
+    background:url(../images/soan/3.jpg) no-repeat 0px 0px;
 }
-.soan-info4 {
-    background:rgb(247, 236, 97);
+.soan-info3:hover {
+    background:url(../images/soan/3-2.jpg) no-repeat 0px 0px;
 }
-.soan-info5 {
-    background: #fc636b;
+.soan-info4{
+    background:url(../images/soan/4.jpg) no-repeat 0px 0px;
+}
+.soan-info4:hover {
+    background:url(../images/soan/4-2.jpg) no-repeat 0px 0px;
+}
+.soan-info5{
+    background:url(../images/soan/5.jpg) no-repeat 0px 0px;
+}
+.soan-info5:hover {
+    background:url(../images/soan/5-2.jpg) no-repeat 0px 0px;
 }
 .soan-info6{
-    background:#72dc76;
+    background:url(../images/soan/6.jpg) no-repeat 0px 0px;
 }
-.soan-info7 {
-    background:#60a7e0;
-}
-.soan-info8 {
-    background:rgb(247, 236, 97);
+.soan-info6:hover {
+    background:url(../images/soan/6-2.jpg) no-repeat 0px 0px;
 }
 .wthree-s1:hover {
     background: #000;
@@ -1057,7 +1066,7 @@ ul.address li ul.agileits-address-text li a:hover{
 	line-height: 30px;
 }
 .abt-btm.agileits.w3layouts {
-    padding:4em 0  0;
+    padding:3em 0  0;
 }
 .bottom-gds {
 	padding: 0;
@@ -1071,6 +1080,8 @@ ul.address li ul.agileits-address-text li a:hover{
 	transition: all 0.3s ease;
 }
 .bottom-gds:hover h4.mission {
+    background-color: #44c7f4;
+    padding: 7px 30px 8px;
 	color: #000;
 }
 .bott-img .icon-holder {
@@ -1079,7 +1090,7 @@ ul.address li ul.agileits-address-text li a:hover{
 	display: inline-block;
 	margin-bottom: 68px;
 	padding: 20px 18px;
-	background: #066093;
+	background: #44c7f4;
 	-webkit-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 	border-radius: 100%;
@@ -1094,7 +1105,9 @@ ul.address li ul.agileits-address-text li a:hover{
 	top: 0;
 	-webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
 	transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-	color: #000;
+    background-color: #44c7f4;
+    padding: 7px 30px 8px;
+    color: #000;
 	font-size: 20px;
 }
 
@@ -1117,7 +1130,7 @@ ul.address li ul.agileits-address-text li a:hover{
 
 .bott-img:hover .icon-holder {
 	top: -40px;
-	background:#066093;
+	background:#44c7f4;
 }
 
 .bott-img:hover .mission {
@@ -1609,6 +1622,7 @@ ul.address li ul.agileits-address-text li a:hover{
 	.contact-form-w3l.w3ls-section {
 		padding: 5em 0 5.3em;
 	}
+
 }
 @media screen and (max-width: 667px){
 	a.w3ls-title1 {
