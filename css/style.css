@@ -167,11 +167,12 @@ span.title-head.gallery {
     background: #066093;
 }
 #about h3.w3l-head:after{
-	right: 44%;
+	right: 43.5%;
+    width: 130px;
 }
 #port h3.w3l-head:after {
-    right: 39.5%;
-    width: 120px;
+    right: 44%;
+    width: 80px;
 }
 #services h3.w3l-head:after {
     right: 44.5%;
@@ -1858,7 +1859,7 @@ ul.address li ul.agileits-address-text li a:hover{
 		width: 55%;
 	}
 	#about h3.w3l-head:after {
-		right: 27%;
+		right: 24%;
 	}
 	#about h3.w3l-head {
 		margin: 1em;
@@ -1958,7 +1959,8 @@ ul.address li ul.agileits-address-text li a:hover{
 		margin-top: 61px;
 	}
 	#port h3.w3l-head:after {
-		right: 23%;
+        right: 35%;
+        width: 55px;
 	}
 	#services h3.w3l-head:after, #contact h3.w3l-head:after {
 		right: 33%;
@@ -2009,7 +2011,16 @@ ul.address li ul.agileits-address-text li a:hover{
 	}
 	#about h3.w3l-head:after {
 		right: 22%;
+        width: 130px;
 	}
+    #port h3.w3l-head:after {
+        right: 32%;
+        width: 55px;
+    }
+    #services h3.w3l-head:after {
+        right: 25%;
+        width: 115px;
+    }
 	.education-w3l {
 		padding: 2em 0.2em;
 	}
@@ -2022,14 +2033,8 @@ ul.address li ul.agileits-address-text li a:hover{
 	.w3ls-stat h6 {
 		font-size: 1.1em;
 	}
-	#port h3.w3l-head:after {
-		right: 18%;
-	}
 	figcaption h3 {
 		margin-top: 36px;
-	}
-	#services h3.w3l-head:after, #contact h3.w3l-head:after {
-		right: 30%;
 	}
 	.bottom-gds {
 		width: 100%;
