@@ -178,6 +178,10 @@ span.title-head.gallery {
     right: 44.5%;
 	width:82px;
 }
+#reservation h3.w3l-head:after{
+    right: 43.5%;
+    width: 130px;
+}
 #contact h3.w3l-head:after {
     width: 80px;
     right: 43.2%;
@@ -495,11 +499,11 @@ h4.w3layouts-year{
 .skills{
 	 padding: 0 4em;
 }
-.education-agile-w3l-year h4 {
-    font-size: 1em;
+.reservation-agile-w3l-year h4 {
+    font-size: 1.2em;
     text-transform: capitalize;
-    color: #0b9bee;
     font-weight: 400;
+    line-height: 2;
 }
 .skill-agile p {
     color: #0670ad;
@@ -567,37 +571,37 @@ span.sicon {
     color: #fff;
 }
 .soan-info1 {
-    background:url(../images/soan/1.jpg) no-repeat 0px 0px;
+    background:#72dc76;
 }
 .soan-info1:hover {
     background:url(../images/soan/1-2.jpg) no-repeat 0px 0px;
 }
 .soan-info2{
-    background:url(../images/soan/2.jpg) no-repeat 0px 0px;
+    background:#60a7e0;
 }
 .soan-info2:hover {
     background:url(../images/soan/2-2.jpg) no-repeat 0px 0px;
 }
 .soan-info3{
-    background:url(../images/soan/3.jpg) no-repeat 0px 0px;
+    background:rgb(247, 236, 97);
 }
 .soan-info3:hover {
     background:url(../images/soan/3-2.jpg) no-repeat 0px 0px;
 }
 .soan-info4{
-    background:url(../images/soan/4.jpg) no-repeat 0px 0px;
+    background:rgb(247, 236, 97);
 }
 .soan-info4:hover {
     background:url(../images/soan/4-2.jpg) no-repeat 0px 0px;
 }
 .soan-info5{
-    background:url(../images/soan/5.jpg) no-repeat 0px 0px;
+    background: #fc636b;
 }
 .soan-info5:hover {
     background:url(../images/soan/5-2.jpg) no-repeat 0px 0px;
 }
 .soan-info6{
-    background:url(../images/soan/6.jpg) no-repeat 0px 0px;
+    background:#72dc76;
 }
 .soan-info6:hover {
     background:url(../images/soan/6-2.jpg) no-repeat 0px 0px;
@@ -1004,6 +1008,9 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 #about h3.w3l-head {
     margin: 1em 0;
 }
+#reservation h3.w3l-head {
+    margin: 1em 0;
+}
 .about h4 {
     font-size: 1.2em;
     color: #a5a5a5;
@@ -1086,16 +1093,17 @@ ul.address li ul.agileits-address-text li a:hover{
 	color: #000;
 }
 .bott-img .icon-holder {
-	position: relative;
-	top: 52px;
-	display: inline-block;
-	margin-bottom: 68px;
-	padding: 20px 18px;
-	background: #44c7f4;
-	-webkit-transition: all 0.3s ease;
-	transition: all 0.3s ease;
-	border-radius: 100%;
-	font-size: 26px;
+    position: relative;
+    top: 52px;
+    display: inline-block;
+    margin-bottom: 68px;
+    padding: 20px 18px;
+    background: #066093;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    border-radius: 100%;
+    color: #fff;
+    font-size: 26px;
 	/*--w3layouts--*/
 	/*--agileits--*/
 }
@@ -1130,7 +1138,7 @@ ul.address li ul.agileits-address-text li a:hover{
 
 .bott-img:hover .icon-holder {
 	top: -40px;
-	background:#44c7f4;
+	background: #066093;
 }
 
 .bott-img:hover .mission {
@@ -1366,6 +1374,9 @@ ul.address li ul.agileits-address-text li a:hover{
 	#about h3.w3l-head:after {
 		right: 43.5%;
 	}
+    #reservation h3.w3l-head:after {
+        right: 43.5%;
+    }
 	.agileits-skill-agile p {
         width: 88%;
 	}
@@ -1380,6 +1391,9 @@ ul.address li ul.agileits-address-text li a:hover{
 	#about h3.w3l-head:after {
 		right: 43%;
 	}	
+    #about h3.w3l-head:after {
+        right: 43%;
+    }
 	.agileits-skill-agile p {
 		width: 100%;
 	}
