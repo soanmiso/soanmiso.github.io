@@ -114,12 +114,23 @@ p {
 a.w3ls-title1 {
     float: left;
     color: #fff;
-    font-size: 2.5em;
-    background: #d65cb0;
+    font-size: 1.1em;
+    background: #0670ad;
+/*    background: #d65cb0;*/
     text-transform: capitalize;
     padding: 0em 0.5em 0;
     border-radius: 10px;
 	font-family: 'Noto Sans KR', sans-serif;
+}
+a.w3ls-title1-1 {
+    color: #fff;
+    font-size: 1.1em;
+    background: #0670ad;
+/*    background: #d65cb0;*/
+    text-transform: capitalize;
+    padding: 0em 0.5em 0;
+    border-radius: 10px;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 a.w3ls-title2 {
     float: right;
@@ -167,24 +178,24 @@ span.title-head.gallery {
     background: #066093;
 }
 #about h3.w3l-head:after{
-	right: 43.5%;
-    width: 130px;
+	right: 42%;
+    width: 185px;
 }
 #port h3.w3l-head:after {
-    right: 44%;
-    width: 80px;
+    right: 44.5%;
+    width: 72px;
 }
 #services h3.w3l-head:after {
-    right: 44.5%;
-	width:82px;
+    right: 43.5%;
+	width:150.5px;
 }
 #reservation h3.w3l-head:after{
-    right: 43.5%;
-    width: 130px;
+    right: 44.5%;
+    width: 115px;
 }
 #contact h3.w3l-head:after {
-    width: 80px;
-    right: 43.2%;
+    width: 115px;
+    right: 44.5%;
     background: #44c7f4;
 }
 .w3ls-section{
@@ -577,31 +588,31 @@ span.sicon {
     background:url(../images/soan/1-2.jpg) no-repeat 0px 0px;
 }
 .soan-info2{
-    background:#60a7e0;
+    background:rgb(247, 236, 97);
 }
 .soan-info2:hover {
     background:url(../images/soan/2-2.jpg) no-repeat 0px 0px;
 }
 .soan-info3{
-    background:rgb(247, 236, 97);
+    background:#fc636b;
 }
 .soan-info3:hover {
     background:url(../images/soan/3-2.jpg) no-repeat 0px 0px;
 }
 .soan-info4{
-    background:rgb(247, 236, 97);
+    background:#60a7e0;
 }
 .soan-info4:hover {
     background:url(../images/soan/4-2.jpg) no-repeat 0px 0px;
 }
 .soan-info5{
-    background: #fc636b;
+    background: #72dc76;
 }
 .soan-info5:hover {
     background:url(../images/soan/5-2.jpg) no-repeat 0px 0px;
 }
 .soan-info6{
-    background:#72dc76;
+    background:rgb(247, 236, 97);
 }
 .soan-info6:hover {
     background:url(../images/soan/6-2.jpg) no-repeat 0px 0px;
@@ -610,6 +621,17 @@ span.sicon {
     background: #000;
 }
 /*-- //services --*/
+/*-- /reservation --*/
+#reservation h3.w3l-head {
+    margin: 1em 0;
+}
+.reservation2-agile-w3l-year{
+    padding: 2em 0 0  20em;   
+}
+.reservation2-agile-w3l-info{
+    padding: 0 0 0  20em;   
+}
+/*-- //reservation --*/
 /*-- statistics --*/
 .statistics{
 	background:url(../images/s2.jpg) no-repeat 0px 0px;
@@ -915,20 +937,20 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
     -ms-box-shadow: inset 0 0 0 4px #1dc800; 
     box-shadow: inset 0 0 0 4px #1dc800;
 } 
-/* miseong */
-.icon-border.miseong::before {
-    -webkit-box-shadow: inset 0 0 0 48px #ffcc99; 
-    -moz-box-shadow: inset 0 0 0 48px #ffcc99; 
-    -o-box-shadow: inset 0 0 0 48px #ffcc99; 
-    -ms-box-shadow: inset 0 0 0 48px #ffcc99; 
-    box-shadow: inset 0 0 0 48px #ffcc99; 
+/* phone */
+.icon-border.phone::before {
+    -webkit-box-shadow: inset 0 0 0 48px #d65cb0; 
+    -moz-box-shadow: inset 0 0 0 48px #d65cb0; 
+    -o-box-shadow: inset 0 0 0 48px #d65cb0; 
+    -ms-box-shadow: inset 0 0 0 48px #d65cb0; 
+    box-shadow: inset 0 0 0 48px #d65cb0; 
 } 
-.icon-border.miseong:hover::before {
-    -webkit-box-shadow: inset 0 0 0 4px #ffcc99; 
-    -moz-box-shadow: inset 0 0 0 4px #ffcc99; 
-    -o-box-shadow: inset 0 0 0 4px #ffcc99; 
-    -ms-box-shadow: inset 0 0 0 4px #ffcc99; 
-    box-shadow: inset 0 0 0 4px #ffcc99;
+.icon-border.phone:hover::before {
+    -webkit-box-shadow: inset 0 0 0 4px #d65cb0; 
+    -moz-box-shadow: inset 0 0 0 4px #d65cb0; 
+    -o-box-shadow: inset 0 0 0 4px #d65cb0; 
+    -ms-box-shadow: inset 0 0 0 4px #d65cb0; 
+    box-shadow: inset 0 0 0 4px #d65cb0;
 } 
 /* twitter */
 .icon-border.twitter::before {
@@ -1006,9 +1028,6 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 /*-- social-icons --*/
 /*-- about --*/
 #about h3.w3l-head {
-    margin: 1em 0;
-}
-#reservation h3.w3l-head {
     margin: 1em 0;
 }
 .about h4 {
@@ -1370,12 +1389,11 @@ ul.address li ul.agileits-address-text li a:hover{
 	}
 }
 @media screen and (max-width: 1440px){
-	
-	#about h3.w3l-head:after {
-		right: 43.5%;
-	}
-    #reservation h3.w3l-head:after {
-        right: 43.5%;
+	.reservation2-agile-w3l-year{
+        padding: 1em 0 0 10em;   
+    }
+    .reservation2-agile-w3l-info{
+        padding: 0 0 0 10em;   
     }
 	.agileits-skill-agile p {
         width: 88%;
@@ -1388,21 +1406,12 @@ ul.address li ul.agileits-address-text li a:hover{
 	}
 }
 @media screen and (max-width: 1366px){
-	#about h3.w3l-head:after {
-		right: 43%;
-	}	
-    #about h3.w3l-head:after {
-        right: 43%;
-    }
+}
+@media screen and (max-width: 1280px){
 	.agileits-skill-agile p {
 		width: 100%;
 	}
-	#services h3.w3l-head:after {
-		right: 44%;
-	}
-}
-@media screen and (max-width: 1280px){
-	h3.w3l-head {
+    h3.w3l-head {
 		font-size: 2.6em;
 	}
 	.education-w3l {
@@ -1411,28 +1420,36 @@ ul.address li ul.agileits-address-text li a:hover{
 	.skills {
 		padding: 0 2.5em;
 	}
-	#port h3.w3l-head:after {
-		right: 40%;
-	}
-	#contact h3.w3l-head:after {
-		right: 43.7%;
-	}
+    #about h3.w3l-head:after{
+        right: 39%;
+        width: 180px;
+    }
+    #port h3.w3l-head:after {
+        right: 43%;
+        width: 78px;
+    }
+    #services h3.w3l-head:after {
+        right: 40.5%;
+        width: 142px;
+    }
+    #reservation h3.w3l-head:after{
+        right: 42%;
+        width: 115px;
+    }
+    #contact h3.w3l-head:after {
+        width: 115px;
+        right: 42%;
+    }
 }
 @media screen and (max-width: 1080px){
-	#about h3.w3l-head:after {
-		right: 42%;
-	}
-	#port h3.w3l-head:after {
-		right: 38%;
-	}
+    .reservation2-agile-w3l-year{
+        padding: 0.8em 0 0 5em;   
+    }
+    .reservation2-agile-w3l-info{
+        padding: 0 0 0 5em;   
+    }    
 	.skills {
 		padding: 0 1.8em;
-	}
-	#services h3.w3l-head:after {
-		right: 43%;
-	}
-	#about h3.w3l-head:after {
-		right: 41.5%;
 	}
 	.banner-left {
 		width: 35%;
@@ -1455,9 +1472,6 @@ ul.address li ul.agileits-address-text li a:hover{
 	.description.agileits.w3layouts p {
 		margin: 1.8em
 	}
-	#contact h3.w3l-head:after {
-		right: 42%;
-	}
 	.w3ls-section {
 		padding: 3em 0;
 	}
@@ -1472,16 +1486,10 @@ ul.address li ul.agileits-address-text li a:hover{
 	.scrollbar.agileits-about-scroll {
 		overflow-y: scroll;
 	}
-	#about h3.w3l-head {
-		margin: 1em 0 1.5em;
-	}
 }
 @media screen and (max-width: 1024px){
 	.description.agileits.w3layouts p {
 		margin: 1.2em;
-	}
-	#services h3.w3l-head:after {
-		right: 42.5%;
 	}
 }
 @media screen and (max-width: 991px){
@@ -1518,12 +1526,6 @@ ul.address li ul.agileits-address-text li a:hover{
 		width: 50%;
 		float: left;
 	}
-	#port h3.w3l-head:after {
-		right: 35.5%;
-	}
-	#contact h3.w3l-head:after {
-		right: 40.5%;
-	}
 	#fp-nav {
         top: 37%;
 	}
@@ -1542,26 +1544,37 @@ ul.address li ul.agileits-address-text li a:hover{
 	.banner-right p {
 		font-size: 2.8em;
 	}
-	#about h3.w3l-head:after {
-		right: 40.5%;
-	}
-	#services h3.w3l-head:after {
-		right: 42%;
-	}
 }
 @media screen and (max-width: 800px){
-	a.w3ls-title1 {
-		font-size: 2.3em;
-	}	
-	#about h3.w3l-head:after {
-		right: 39.5%;
-	}
-	#services h3.w3l-head:after {
-		right: 41%;
-	}
-	
+    .reservation2-agile-w3l-year{
+        padding: 0.6em 0 0 1em;   
+    }
+    .reservation2-agile-w3l-info{
+        padding: 0 0 0 1em;   
+    } 
+    #about h3.w3l-head:after{
+        right: 36%;
+    }
+    #port h3.w3l-head:after {
+        right: 42%;
+    }
+    #services h3.w3l-head:after {
+        right: 37.5%;
+    }
+    #reservation h3.w3l-head:after{
+        right: 40%;
+    }
+    #contact h3.w3l-head:after {
+        right: 40%;
+    }    
 }
 @media screen and (max-width: 768px){
+    .reservation2-agile-w3l-year{
+        padding: 0 0 0 0;   
+    }
+    .reservation2-agile-w3l-info{
+        padding: 0.5em 0 0 0;   
+    } 
 	.banner-right h3 {
 		padding: 0.2em 0.5em;
 		font-size: 1.4em;
@@ -1602,12 +1615,6 @@ ul.address li ul.agileits-address-text li a:hover{
 	.banner-right h2 {
 		letter-spacing: 1px;
 	}
-	#about h3.w3l-head:after {
-		right: 38.5%;
-	}
-	#port h3.w3l-head:after {
-		right: 34.5%;
-	}
 	.simplefilter li, .multifilter li, .sortandshuffle li {
        padding: 8px 16px;
 	}
@@ -1620,9 +1627,6 @@ ul.address li ul.agileits-address-text li a:hover{
 	}
 	.contact-left-w3ls {
 		width: 93%;
-	}
-	#services h3.w3l-head:after {
-		right: 40%;
 	}
 	.abt-btm.agileits.w3layouts {
 		padding: 3em 0 0;
@@ -1639,9 +1643,6 @@ ul.address li ul.agileits-address-text li a:hover{
 
 }
 @media screen and (max-width: 667px){
-	a.w3ls-title1 {
-		font-size: 2.1em;
-	}
 	.banner-left {
 		width: 38%;
 	}
@@ -1659,15 +1660,6 @@ ul.address li ul.agileits-address-text li a:hover{
 		margin: 0 3px;
 		padding:8px 13px;
 	}
-	#about h3.w3l-head:after {
-		right: 37.5%;
-	}
-	#port h3.w3l-head:after {
-		right: 33.5%;
-	}
-	#services h3.w3l-head:after,#contact h3.w3l-head:after {
-		right: 39%;
-	} 
 	h3.w3l-head {
 		font-size: 2.3em;
 	}
@@ -1709,6 +1701,21 @@ ul.address li ul.agileits-address-text li a:hover{
 	}
 }
 @media screen and (max-width: 600px){
+    #about h3.w3l-head:after{
+        right: 33%;
+    }
+    #port h3.w3l-head:after {
+        right: 40%;
+    }
+    #services h3.w3l-head:after {
+        right: 35%;
+    }
+    #reservation h3.w3l-head:after{
+        right: 38%;
+    }
+    #contact h3.w3l-head:after {
+        right: 38%;
+    }      
 	#home {
 		height: 547px !important;
 	}
@@ -1718,6 +1725,9 @@ ul.address li ul.agileits-address-text li a:hover{
 	.banner-right h3 {
 		font-size: 1.3em;
 	}
+    .banner-right {
+        width: 70%;
+    }
 	span.title-head {
 		padding: 0px 7px;
 	}	
@@ -1730,9 +1740,6 @@ ul.address li ul.agileits-address-text li a:hover{
 	}
 	.simplefilter li, .multifilter li, .sortandshuffle li {
 		padding:8px;
-	}
-	#port h3.w3l-head:after {
-		right: 32.5%;
 	}
 	figcaption h3 {
 		margin-top: 33px;
@@ -1757,21 +1764,27 @@ ul.address li ul.agileits-address-text li a:hover{
     }
 }
 @media screen and (max-width: 568px){
+    #about h3.w3l-head:after{
+        right: 30%;
+    }
+    #port h3.w3l-head:after {
+        right: 38%;
+    }
+    #services h3.w3l-head:after {
+        right: 33%;
+    }
+    #reservation h3.w3l-head:after{
+        right: 36%;
+    }
+    #contact h3.w3l-head:after {
+        right: 36%;
+    }  
 	#home {
 		height: 521px !important;
 	}
 	.simplefilter li {
        letter-spacing: 1px;
     }
-	#about h3.w3l-head:after {
-		right: 36.5%;
-	}
-	#port h3.w3l-head:after {
-		right: 31.5%;
-	}
-	#services h3.w3l-head:after, #contact h3.w3l-head:after {
-		right: 38%;
-	}
 	.experience-grids {
 		width: 100%;
 		float: left;
@@ -1790,7 +1803,22 @@ ul.address li ul.agileits-address-text li a:hover{
 		padding: 2em;
 	}
 }
-@media screen and (max-width: 480px){
+@media screen and (max-width: 480px){ 
+    #about h3.w3l-head:after{
+        right: 26%;
+    }
+    #port h3.w3l-head:after {
+        right: 35%;
+    }
+    #services h3.w3l-head:after {
+        right: 30%;
+    }
+    #reservation h3.w3l-head:after{
+        right: 32%;
+    }
+    #contact h3.w3l-head:after {
+        right: 32%;
+    }  
     div#home {
         background-image: url("../images/main-m.jpg");
     }
@@ -1812,15 +1840,6 @@ ul.address li ul.agileits-address-text li a:hover{
 	.banner-right {
 		padding: 5em 0 0 1em;
 	}
-	h3.w3l_head, .education h3 {
-        font-size: 1.5em;
-	}
-	#about h3.w3l-head:after {
-		right: 34%;
-	}
-	#port h3.w3l-head:after {
-		right: 27%;
-	}
 	ul.simplefilter {
 		margin: 2em 0;
 	}
@@ -1833,9 +1852,6 @@ ul.address li ul.agileits-address-text li a:hover{
 	figcaption h3 {
 		margin-top: 5px;
 	}
-	#services h3.w3l-head:after, #contact h3.w3l-head:after {
-		right: 36%;
-	}
 	.contact-grid-agileinfo {
 		width: 100%;
 		float: none;
@@ -1845,6 +1861,21 @@ ul.address li ul.agileits-address-text li a:hover{
 	}
 }
 @media screen and (max-width: 414px){
+    #about h3.w3l-head:after{
+        right: 33%;
+    }
+    #port h3.w3l-head:after {
+        right: 40%;
+    }
+    #services h3.w3l-head:after {
+        right: 35%;
+    }
+    #reservation h3.w3l-head:after{
+        right: 38%;
+    }
+    #contact h3.w3l-head:after {
+        right: 38%;
+    }  
 	.banner-right p {
 		font-size: 1.5em;
 	}
@@ -1872,18 +1903,18 @@ ul.address li ul.agileits-address-text li a:hover{
 	.banner-right {
 		width: 55%;
 	}
-	#about h3.w3l-head:after {
+/*	#about h3.w3l-head:after {
 		right: 24%;
-	}
-	#about h3.w3l-head {
+	}*/
+/*	#about h3.w3l-head {
 		margin: 1em;
-	}
+	}*/
 	.skill-agile, .agileits-skill-agile {
 		margin-top: 1.5em;
 	}
-	#port h3.w3l-head:after {
+/*	#port h3.w3l-head:after {
 		right: 24%;
-	}
+	}*/
 	.filtr-item {
 		float: none;
 		width: 100%;
@@ -1891,9 +1922,9 @@ ul.address li ul.agileits-address-text li a:hover{
 	figcaption h3 {
 		margin-top: 80px;
 	}
-	#services h3.w3l-head:after, #contact h3.w3l-head:after {
+/*	#services h3.w3l-head:after, #contact h3.w3l-head:after {
 		right: 34%;
-	}
+	}*/
 	.social-icons ul li a.fa {
 		font-size: 0.9em;
 		line-height: 2.5em;
@@ -1943,12 +1974,29 @@ ul.address li ul.agileits-address-text li a:hover{
 	.contact-form-w3l.w3ls-section {
 		padding: 5em 0 1.7em;
 	}
-	a.w3ls-title1 {
-		font-size: 2em;
-	}
 	
 }	
 @media screen and (max-width: 375px){
+    #about h3.w3l-head:after{
+        right: 23.5%;
+        width: 148px;
+    }
+    #port h3.w3l-head:after {
+        right: 33.5%;
+        width: 66px;
+    }
+    #services h3.w3l-head:after {
+        right: 27%;
+        width: 122px;
+    }
+    #reservation h3.w3l-head:after{
+        right: 32%;
+        width: 96px;
+    }
+    #contact h3.w3l-head:after {
+        width: 96px;
+        right: 30.5%;
+    }
 	.banner-right h3 {
 		font-size: 1.2em;
 	}
@@ -1962,22 +2010,12 @@ ul.address li ul.agileits-address-text li a:hover{
 	.banner-left {
 		padding-top: 1em;
 	}
-	a.w3ls-title1 {
-		font-size: 1.8em;
-	}
 	a.w3ls-title2 {
 		padding: 0.5em 0.7em;
 		margin-top: 0em;
 	}
 	figcaption h3 {
 		margin-top: 61px;
-	}
-	#port h3.w3l-head:after {
-        right: 35%;
-        width: 55px;
-	}
-	#services h3.w3l-head:after, #contact h3.w3l-head:after {
-		right: 33%;
 	}
 	.agilits-form {
 		padding: 2em 1em;
@@ -1988,6 +2026,26 @@ ul.address li ul.agileits-address-text li a:hover{
 	}
 }
 @media screen and (max-width: 320px){
+    #about h3.w3l-head:after{
+        right: 21%;
+        width: 150px;
+    }
+    #port h3.w3l-head:after {
+        right: 34.5%;
+        width: 55px;
+    }
+    #services h3.w3l-head:after {
+        right: 24.5%;
+        width:120.5px;
+    }
+    #reservation h3.w3l-head:after{
+        right: 30%;
+        width: 93px;
+    }
+    #contact h3.w3l-head:after {
+        width: 94px;
+        right: 29.5%;
+    }
 	.banner-right h2 {
 		font-size: 0.9em;
 		letter-spacing: 1px;
@@ -1996,7 +2054,7 @@ ul.address li ul.agileits-address-text li a:hover{
 		font-size: 1.5em;
 	}
 	.banner-right {
-		width: 46%;
+		width: 60%;
 	}
 	.banner-right {
 		padding: 2em 0 0 0.5em;
@@ -2023,18 +2081,6 @@ ul.address li ul.agileits-address-text li a:hover{
 	p.b_label {
 	   margin-bottom: 0.1em;
 	}
-	#about h3.w3l-head:after {
-		right: 22%;
-        width: 130px;
-	}
-    #port h3.w3l-head:after {
-        right: 32%;
-        width: 55px;
-    }
-    #services h3.w3l-head:after {
-        right: 25%;
-        width: 115px;
-    }
 	.education-w3l {
 		padding: 2em 0.2em;
 	}
