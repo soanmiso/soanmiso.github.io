@@ -1643,6 +1643,24 @@ ul.address li ul.agileits-address-text li a:hover{
 
 }
 @media screen and (max-width: 667px){
+    .soan-info1:hover {
+        background:url(../images/soan/1.jpg) no-repeat 0px 0px;
+    }
+    .soan-info2:hover {
+        background:url(../images/soan/2.jpg) no-repeat 0px 0px;
+    }   
+    .soan-info3:hover {
+        background:url(../images/soan/3.jpg) no-repeat 0px 0px;
+    }
+    .soan-info4:hover {
+        background:url(../images/soan/4.jpg) no-repeat 0px 0px;
+    }
+    .soan-info5:hover {
+        background:url(../images/soan/5.jpg) no-repeat 0px 0px;
+    }
+    .soan-info6:hover {
+        background:url(../images/soan/6.jpg) no-repeat 0px 0px;
+    }
 	.banner-left {
 		width: 38%;
 	}
