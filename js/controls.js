@@ -22,18 +22,5 @@ $(function() {
         $(this).addClass('active');
     });
 
-    $(document).on('click','#toTopHover',function(e){
-        e.preventDefault();
-        $('html, body').animate( { scrollTop : 0 }, 400 );
-        return false;
-    });
-
-    function initSoan(){
-        $('.simplefilter li').removeClass('active');
-        $('#init-gallery').addClass('active');
-    }
-    
-    initSoan();
-
 });
 
