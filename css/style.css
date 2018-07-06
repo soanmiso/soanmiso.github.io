@@ -1661,6 +1661,9 @@ ul.address li ul.agileits-address-text li a:hover{
     .soan-info6:hover {
         background:url(../images/soan/6.jpg) no-repeat 0px 0px;
     }
+    .skills {
+        padding: 0 1em;
+    }
 	.banner-left {
 		width: 38%;
 	}

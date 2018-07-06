@@ -10,7 +10,13 @@ var $soan = {
 		"images/soan/3-2.jpg",
 		"images/soan/4-2.jpg",
 		"images/soan/5-2.jpg",
-		"images/soan/6-2.jpg"
+		"images/soan/6-2.jpg",
+		"images/soan/1.jpg",
+		"images/soan/2.jpg",
+		"images/soan/3.jpg",
+		"images/soan/4.jpg",
+		"images/soan/5.jpg",
+		"images/soan/6.jpg"
 	],
 	init : function(){
 		$soan.imagePreLoading();
