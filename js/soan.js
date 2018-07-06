@@ -19,9 +19,17 @@ var $soan = {
 		"images/soan/6.jpg"
 	],
 	init : function(){
+		/*services*/
 		$soan.imagePreLoading();
 
-/*		$(document).on("touchend", function(){
+		/*gallery*/
+        $('.simplefilter li').first().trigger("click");
+
+        $(document).on('click','.simplefilter li',function(){
+        	$("#gallery-scrollbar").scrollTop(0); 
+    	});
+
+/*		$(document).on("touchmove", function(){
 			event.preventDefault();
 			scrollPage();
 		});
