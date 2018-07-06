@@ -23,12 +23,12 @@ var $soan = {
 		$soan.imagePreLoading();
 
 		/*gallery*/
-        $('.simplefilter li').first().trigger("click");
-
-        $(document).on('click','.simplefilter li',function(){
+         $(document).on('click','.simplefilter li',function(){
         	$("#gallery-scrollbar").scrollTop(0); 
     	});
+        $('.simplefilter li').first().trigger("click");
 
+        /*touch event*/
 /*		$(document).on("touchmove", function(){
 			event.preventDefault();
 			scrollPage();
