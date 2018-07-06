@@ -1781,7 +1781,8 @@ ul.address li ul.agileits-address-text li a:hover{
 		padding: 5em 0 2.7em;
 	}
     .education h3 {
-    text-align: left;
+        font-size: 1.5em;
+        text-align: left;
     }
 }
 @media screen and (max-width: 568px){
