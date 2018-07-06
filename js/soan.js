@@ -21,11 +21,11 @@ var $soan = {
 	init : function(){
 		$soan.imagePreLoading();
 
-		$(document).on("touchend", function(){
+/*		$(document).on("touchend", function(){
 			event.preventDefault();
 			scrollPage();
 		});
-
+*/
 	},
 	imagePreLoading : function(){
 		var imageUrls = $soan.imageUrl;
