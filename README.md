@@ -19,3 +19,6 @@ jquery filterizr 를 이용 갤러리가 구현되어 있는데.
 
 4. 개인블로그 : 
 http://drengineer.tistory.com/ 
+
+5. 사용한 템플릿 : 
+https://w3layouts.com/gusto-personal-website-flat-bootstrap-responsive-web-template/
