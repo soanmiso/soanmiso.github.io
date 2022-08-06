@@ -1,4 +1,4 @@
-# soanmiso.github.io  
+# soanmiso.github.io
 
 1. 제작기간 : 
 2018.06~2018.07
@@ -22,5 +22,3 @@ http://drengineer.tistory.com/
 
 5. 사용한 템플릿 : 
 https://w3layouts.com/gusto-personal-website-flat-bootstrap-responsive-web-template/
-
-6. 보기 : soanmiso.com
