@@ -1843,7 +1843,7 @@ ul.address li ul.agileits-address-text li a:hover{
         right: 32%;
     }  
     div#home {
-        background-image: url("../images/main-m.jpg");
+        background-image: url("../images/main-m.jpg?v1");
     }
 	.banner-left{
 		width:38%;
