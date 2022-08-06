@@ -1615,10 +1615,13 @@ ul.address li ul.agileits-address-text li a:hover{
 		padding: 3em 0 0;
 	}
 	div[data-target] {
-        height: 715px !important;
+        height: auto !important;
 	}
+    .m-mb-3{
+        margin-bottom: 3rem !important;
+    }
 	div#gallery {
-		height: 806px !important;
+		height: auto !important;
 	}
 	.contact-form-w3l.w3ls-section {
 		padding: 5em 0 5.3em;
