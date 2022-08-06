@@ -582,39 +582,21 @@ span.sicon {
     color: #fff;
 }
 .soan-info1 {
-    background:#72dc76;
-}
-.soan-info1:hover {
     background:url(../images/soan/1-2.jpg) no-repeat 0px 0px;
 }
 .soan-info2{
-    background:rgb(247, 236, 97);
-}
-.soan-info2:hover {
     background:url(../images/soan/2-2.jpg) no-repeat 0px 0px;
 }
 .soan-info3{
-    background:#fc636b;
-}
-.soan-info3:hover {
     background:url(../images/soan/3-2.jpg) no-repeat 0px 0px;
 }
 .soan-info4{
-    background:#60a7e0;
-}
-.soan-info4:hover {
     background:url(../images/soan/4-2.jpg) no-repeat 0px 0px;
 }
 .soan-info5{
-    background: #72dc76;
-}
-.soan-info5:hover {
     background:url(../images/soan/5-2.jpg) no-repeat 0px 0px;
 }
 .soan-info6{
-    background:rgb(247, 236, 97);
-}
-.soan-info6:hover {
     background:url(../images/soan/6-2.jpg) no-repeat 0px 0px;
 }
 .wthree-s1:hover {
@@ -1100,7 +1082,7 @@ ul.address li ul.agileits-address-text li a:hover{
 }
 .bott-img {
 	width: 100%;
-	height: 250px;
+	height: 260px;
 	margin: 0px 0;
 	text-align: center;
 	-webkit-transition: all 0.3s ease;
@@ -1117,7 +1099,7 @@ ul.address li ul.agileits-address-text li a:hover{
     display: inline-block;
     margin-bottom: 68px;
     padding: 20px 18px;
-    background: #066093;
+    /*background: #066093;*/
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
     border-radius: 100%;
@@ -1136,6 +1118,7 @@ ul.address li ul.agileits-address-text li a:hover{
     padding: 7px 30px 8px;
     color: #000;
 	font-size: 20px;
+    background-color: #44c7f4;
 }
 
 .bott-img .description {
@@ -1155,16 +1138,16 @@ ul.address li ul.agileits-address-text li a:hover{
 	width: 40px;
 }
 
-.bott-img:hover .icon-holder {
+.bott-img .icon-holder {
 	top: -40px;
-	background: #066093;
+	/*background: #066093;*/
 }
 
-.bott-img:hover .mission {
+.bott-img .mission {
 	top: -80px;
 }
 
-.bott-img:hover .description {
+.bott-img .description {
 	opacity: 1;
 	-webkit-transform: scale(1);
 	-ms-transform: scale(1);
@@ -1173,7 +1156,7 @@ ul.address li ul.agileits-address-text li a:hover{
 	line-height: 2.2em;
 }
 
-.bott-img:hover .description a {
+.bott-img .description a {
 	top: -60px;
 }
 
@@ -1644,22 +1627,22 @@ ul.address li ul.agileits-address-text li a:hover{
 }
 @media screen and (max-width: 667px){
     .soan-info1:hover {
-        background:url(../images/soan/1.jpg) no-repeat 0px 0px;
+        background:url(../images/soan/1-2.jpg) no-repeat 0px 0px;
     }
-    .soan-info2:hover {
-        background:url(../images/soan/2.jpg) no-repeat 0px 0px;
-    }   
-    .soan-info3:hover {
-        background:url(../images/soan/3.jpg) no-repeat 0px 0px;
+    .soan-info2:hover{
+        background:url(../images/soan/2-2.jpg) no-repeat 0px 0px;
     }
-    .soan-info4:hover {
-        background:url(../images/soan/4.jpg) no-repeat 0px 0px;
+    .soan-info3:hover{
+        background:url(../images/soan/3-2.jpg) no-repeat 0px 0px;
     }
-    .soan-info5:hover {
-        background:url(../images/soan/5.jpg) no-repeat 0px 0px;
+    .soan-info4:hover{
+        background:url(../images/soan/4-2.jpg) no-repeat 0px 0px;
     }
-    .soan-info6:hover {
-        background:url(../images/soan/6.jpg) no-repeat 0px 0px;
+    .soan-info5:hover{
+        background:url(../images/soan/5-2.jpg) no-repeat 0px 0px;
+    }
+    .soan-info6:hover{
+        background:url(../images/soan/6-2.jpg) no-repeat 0px 0px;
     }
     .skills {
         padding: 0 1em;
@@ -1722,6 +1705,24 @@ ul.address li ul.agileits-address-text li a:hover{
 	}
 }
 @media screen and (max-width: 600px){
+    .soan-info1 {
+        background:url(../images/soan/1.jpg) no-repeat 0px 0px;
+    }
+    .soan-info2{
+        background:url(../images/soan/2.jpg) no-repeat 0px 0px;
+    }
+    .soan-info3{
+        background:url(../images/soan/3.jpg) no-repeat 0px 0px;
+    }
+    .soan-info4{
+        background:url(../images/soan/4.jpg) no-repeat 0px 0px;
+    }
+    .soan-info5{
+        background:url(../images/soan/5.jpg) no-repeat 0px 0px;
+    }
+    .soan-info6{
+        background:url(../images/soan/6.jpg) no-repeat 0px 0px;
+    }
     #about h3.w3l-head:after{
         right: 33%;
     }
