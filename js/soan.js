@@ -20,7 +20,7 @@ var $soan = {
 	],
 	init : function(){
 		/*services*/
-		$soan.imagePreLoading();
+		//$soan.imagePreLoading();
 
 		/*gallery*/
          $(document).on('click','.simplefilter li',function(){
