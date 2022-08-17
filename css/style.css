@@ -1144,7 +1144,7 @@ ul.address li ul.agileits-address-text li a:hover{
 }
 
 .bott-img .mission {
-	top: -80px;
+	top: -90px;
 }
 
 .bott-img .description {
@@ -2146,4 +2146,33 @@ ul.address li ul.agileits-address-text li a:hover{
     left:50%;
     top:50%;
     transform: translate(-50%, -50%);
+}
+
+.soan-plan-image {
+    filter: brightness(0.5);
+}
+
+.soan-plan{
+     position: absolute;
+     top:50%;
+     left:50%;
+     transform: translate(-50%, -50%);                                                                   
+     color: white;
+     z-index: 2;
+     text-align: center;
+     width: 100%;
+     height: auto;
+}
+
+
+.soan-info-desc {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #44c7f4;
+}
+.soan-desc {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #44c7f4;
 }
